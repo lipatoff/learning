@@ -9,9 +9,9 @@
 
 			<!-- new note -->
 			<div class="new-note">
-				<label>Title</label>
+				<label>Заголовок</label>
 				<input v-model="note.title" type="text">
-				<label>Priority</label>
+				<label>Приоритет</label>
 				<select v-model="note.priority" class="select">
 					<option
 						v-for="(priority, index) in priorites"

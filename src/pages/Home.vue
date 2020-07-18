@@ -5,7 +5,7 @@
 
 			<!-- title -->
 			<div class="note-header">
-				<h1 class="title">All Notes</h1>
+				<h1 class="title">Вообще все заметки</h1>
 
 				<!-- search -->
 				<search
