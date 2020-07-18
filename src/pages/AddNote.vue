@@ -20,7 +20,7 @@
 						{{ priority.title }}	
 					</option>
 				</select>
-				<label>Description</label>
+				<label>Description 10</label>
 				<textarea v-model="note.descr"></textarea>
 				<button class="btn btnPrimary new-note" @click="addNote">New Note</button>
 			</div>
