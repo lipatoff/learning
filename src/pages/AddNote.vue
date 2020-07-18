@@ -2,7 +2,7 @@
     <div class="wrapper-content wrapper-content--fixed">
       <section>
         <div class="container">
-        	<h1 class="title">Add New Note</h1>
+        	<h1 class="title">Add New Note </h1>
 
 			<!-- message -->
           	<message v-if="message" :message="message"/>
@@ -22,7 +22,7 @@
 				</select>
 				<label>Description</label>
 				<textarea v-model="note.descr"></textarea>
-				<button class="btn btnPrimary new-note" @click="addNote">New Note</button>
+				<button class="btn btnPrimary new-note" @click="addNote">Plus New Note</button>
 			</div>
 
         </div>
