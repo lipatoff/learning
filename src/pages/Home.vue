@@ -5,12 +5,12 @@
 
 			<!-- title -->
 			<div class="note-header">
-				<h1 class="title">All Notes</h1>
+				<h1 class="title">Все заметки</h1>
 
 				<!-- search -->
 				<search
 					:value="search"
-					placeholder="Find your note 10"
+					placeholder="Найти заметку"
 					@search="search = $event"/>
 
 				<!-- icons controls -->
