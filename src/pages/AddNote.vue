@@ -35,14 +35,14 @@ import message from '@/components/Message.vue'
 
 export default {
 	components: {
-  		message
+  		message,
 	},
 	data () {
     	return {
 			message: null,
 			note: {
 				title: '',
-				descr: '',
+				descr: '', 
 				priority: 'base'
 			},
 			priorites: [
