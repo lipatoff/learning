@@ -10,7 +10,7 @@
 				<!-- search -->
 				<search
 					:value="search"
-					placeholder="Find your note"
+					placeholder="Find your note 10"
 					@search="search = $event"/>
 
 				<!-- icons controls -->
